@@ -671,7 +671,7 @@ public class NodeStatusUpdaterImpl extends AbstractService implements
           } catch (Throwable e) {
 
             // TODO Better error handling. Thread can die with the rest of the
-            // NM still running.
+            // NM still running.test
             LOG.error("Caught exception in status-updater", e);
           } finally {
             synchronized (heartbeatMonitor) {
